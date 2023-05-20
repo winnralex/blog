@@ -1,14 +1,30 @@
 ---
-title: External Project
-summary: An example of linking directly to an external project website using `external_link`.
+title: Проект на Linux
+summary: Проект, связанный с операционной системой Linux.
 tags:
-  - Demo
-date: "2016-04-27T00:00:00Z"
+  - programming
+  - work
+date: '2023-05-20T00:00:00Z'
 
 # Optional external URL for project (replaces project detail page).
-external_link: https://example.org
+external_link: ''
 
 image:
-  caption: Photo by Toa Heftiba on Unsplash
-  focal_point: Smart
+  
+
+links:
+  
+url_code: ''
+url_pdf: ''
+url_slides: ''
+url_video: ''
+
+
+#   Associate this project with Markdown slides.
+#   Simply enter your slide deck's filename without extension.
+#   E.g. `slides = "example-slides"` references `content/slides/example-slides.md`.
+#   Otherwise, set `slides = ""`.
+slides: ""
 ---
+
+
