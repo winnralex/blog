@@ -3,13 +3,14 @@
 #   Documentation: https://wowchemy.com/docs/guide/language/
 
 # Default language
+en:
+  languageCode: en-us
+  contentDir: "content/en"
 ru:
    languageCode: "ru-ru"
    contentDir: "content/ru"
    
-en:
-  languageCode: en-us
-  contentDir: "content/en"
+
   # Uncomment for multi-lingual sites, and move English content into `en` sub-folder.
   #contentDir: content/en
   
