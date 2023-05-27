@@ -29,7 +29,7 @@ authors:
   - admin
 
 tags:
-  - Markdown
+  - Презентации
 
 categories:
   - Образование

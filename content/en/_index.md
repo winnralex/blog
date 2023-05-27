@@ -14,27 +14,27 @@ sections:
       text:
   - block: features
     content:
-      title: Навыки
+      title: Skills
       items:
-        - name: Программирование
+        - name: Programming
           description: 10%
           icon: laptop-code
           icon_pack: fas
-        - name: Скорость печати
+        - name: Printing speed
           description: 80%
           icon: keyboard
           icon_pack: fas
-        - name: Английский язык
+        - name: English language
           description: 90%
           icon: language
           icon_pack: fas
-        - name: Французский язык
+        - name: French language
           description: 40%
           icon: language
           icon_pack: fas
   - block: experience
     content:
-      title: Опыт работы
+      title: Experience
       # Date format for experience
       #   Refer to https://wowchemy.com/docs/customization/#date-format
       date_format: Jan 2006
@@ -44,8 +44,8 @@ sections:
       #   Leave `date_end` empty if it's your current employer.
       #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
       items:
-        - title: Студент
-          company: РУДН
+        - title: Student
+          company: RUDN
           company_url: 'https://www.rudn.ru/'
           company_logo: 
           location: Москва
@@ -53,13 +53,13 @@ sections:
           date_end: ''
           description: |2-
            
-             Компьютерные и информационные науки
+             Computer Science
     design:
       columns: '2'
   - block: accomplishments
     content:
       # Note: `&shy;` is used to add a 'soft' hyphen in a long heading.
-      title: 'Достижения'
+      title: 'Accomplishments'
       subtitle:
       # Date format: https://wowchemy.com/docs/customization/#date-format
       date_format: Jan 2006
@@ -72,25 +72,25 @@ sections:
         - certificate_url: https://stepik.org/cert/1936266
           date_end: '2023-02-03'
           date_start: '2023-01-25'
-          description: 'Пройдено 100%'
+          description: ' Passed 100%'
           organization: Stepik
           organization_url: https://www.stepik.org
-          title: Математика в кибербезопасности
+          title: Math in Cybersecurity
           url: 'https://stepik.org/course/62247/info'
         - certificate_url: https://stepik.org/cert/1895974
           date_end: '2022-12-30'
           date_start: '2022-12-29'
-          description: 'Пройдено 100%'
+          description: 'Passed 100%'
           organization: Stepik
           organization_url: https://www.stepik.org
-          title: Безопасность в интернете
+          title: Internet security
           url: https://stepik.org/course/191/info
     design:
       columns: '2'
   - block: collection
     id: posts
     content:
-      title: Недавние публикации
+      title: Recent posts
       subtitle: ''
       text: ''
       # Choose how many pages you would like to display (0 = all pages)
@@ -117,7 +117,7 @@ sections:
   - block: portfolio
     id: projects
     content:
-      title: Проекты
+      title: Projects
       filters:
         folders:
           - project
@@ -131,28 +131,18 @@ sections:
       buttons:
         - name: All
           tag: '*'
-        - name: Deep Learning
-          tag: Deep Learning
-        - name: Other
-          tag: Demo
+
     design:
       # Choose how many columns the section has. Valid values: '1' or '2'.
       columns: '1'
       view: showcase
       # For Showcase view, flip alternate rows?
       flip_alt_rows: false
-  - block: markdown
-    content:
-      title: Галерея
-      subtitle: ''
-      text: |-
-        {{< gallery album="demo" >}}
-    design:
-      columns: '1'
+
   - block: collection
     id: featured
     content:
-      title: Рекомендуемые публикации
+      title: Featured publications
       filters:
         folders:
           - publication
@@ -162,7 +152,7 @@ sections:
       view: card
   - block: collection
     content:
-      title: Недавние публикации
+      title: Recent publications
       text: |-
         {{% callout note %}}
         Quickly discover relevant content by [filtering publications](./publication/).
@@ -177,7 +167,7 @@ sections:
   - block: collection
     id: talks
     content:
-      title: Недавние и предстоящие обсуждения
+      title: Recent and Upcoming talks
       filters:
         folders:
           - event
@@ -186,36 +176,31 @@ sections:
       view: compact
   - block: tag_cloud
     content:
-      title: Популярные темы
+      title: Popular topics
     design:
       columns: '2'
   - block: contact
     id: contact
     content:
-      title: Контакты
+      title: Contact
       subtitle:
       text: |-
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam mi diam, venenatis ut magna et, vehicula efficitur enim.
+
       # Contact (add or remove contact options as necessary)
-      email: test@example.org
-      phone: 888 888 88 88
+      email: By request
+      phone: By request
       appointment_url: 'https://calendly.com'
       address:
-        street: 450 Serra Mall
-        city: Stanford
-        region: CA
-        postcode: '94305'
-        country: United States
-        country_code: US
-      directions: Enter Building 1 and take the stairs to Office 200 on Floor 2
-      office_hours:
-        - 'Monday 10:00 to 13:00'
-        - 'Wednesday 09:00 to 10:00'
+        street: 
+        city: Moscow
+        region: 
+        postcode: 
+        country: 
+        country_code: 
+      directions:
+      office_hours: 
+      - 24/7
       contact_links:
-        - icon: twitter
-          icon_pack: fab
-          name: DM Me
-          link: 'https://twitter.com/Twitter'
         - icon: skype
           icon_pack: fab
           name: Skype Me
