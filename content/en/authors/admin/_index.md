@@ -81,4 +81,4 @@ email: 'shupletsovalex123@mail.ru'
 highlight_name: true
 ---
 
-18 years old. Study Computer Science at RUDN.
+19 years old. Study Computer Science at RUDN.
