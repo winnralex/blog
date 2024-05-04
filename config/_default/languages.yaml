@@ -3,11 +3,6 @@
 #   Documentation: https://wowchemy.com/docs/guide/language/
 
 # Default language
-en:
-  languageCode: en-us
-  # Uncomment for multi-lingual sites, and move English content into `en` sub-folder.
-  contentDir: content/en
-  title: 'A.A.Shupletsov'
 
 ru:
   languageCode: "ru-ru"
@@ -33,6 +28,12 @@ ru:
       - name: Контакты
         url: '#contact'
         weight: 60 
+        
+en:
+  languageCode: en-us
+  # Uncomment for multi-lingual sites, and move English content into `en` sub-folder.
+  contentDir: content/en
+  title: 'A.A.Shupletsov'
 
   # Uncomment for multi-lingual sites, and move English content into `en` sub-folder.
   #contentDir: content/en
