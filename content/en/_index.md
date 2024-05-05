@@ -69,22 +69,46 @@ sections:
       #   Leave other parameters empty if not required.
       #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
       items:
-        - certificate_url: https://stepik.org/cert/1936266
+        - certificate_url: https://stepik.org/cert/1936266?lang=en
           date_end: '2023-02-03'
           date_start: '2023-01-25'
           description: ' Passed 100%'
           organization: Stepik
           organization_url: https://www.stepik.org
-          title: Math in Cybersecurity
+          title: Mathematics in Cybersecurity
           url: 'https://stepik.org/course/62247/info'
-        - certificate_url: https://stepik.org/cert/1895974
+        - certificate_url: https://stepik.org/cert/1895974?lang=en
           date_end: '2022-12-30'
           date_start: '2022-12-29'
           description: 'Passed 100%'
           organization: Stepik
           organization_url: https://www.stepik.org
-          title: Internet security
+          title: Internet Security
           url: https://stepik.org/course/191/info
+        - certificate_url: https://stepik.org/cert/2146127?lang=en
+          date_end: '2023-08-09'
+          date_start: '2023-06-24'
+          description: 'Passed 100%'
+          organization: Stepik
+          organization_url: https://www.stepik.org
+          title: Basics of C programming. Tasks.
+          url: https://stepik.org/course/3078/info
+        - certificate_url: https://stepik.org/cert/2090380?lang=en
+          date_end: '2023-06-03'
+          date_start: '2023-04-29'
+          description: 'Passed 100%'
+          organization: Stepik
+          organization_url: https://www.stepik.org
+          title: Introduction to Linux
+          url: https://stepik.org/course/3078/info
+        - certificate_url: https://drive.google.com/file/d/1KiTFhsJWny2uMpCCZNSCLo1vcaww_Ocg/view?usp=sharing
+          date_end: '2024-05-05'
+          date_start: '2024-02-17'
+          description: 'Passed 100%'
+          organization: Stepik
+          organization_url: https://www.stepik.org
+          title: The basics of cybersecurity
+          url: https://stepik.org/course/111512/info
     design:
       columns: '2'
   - block: collection
@@ -150,20 +174,7 @@ sections:
     design:
       columns: '2'
       view: card
-  - block: collection
-    content:
-      title: Recent publications
-      text: |-
-        {{% callout note %}}
-        Quickly discover relevant content by [filtering publications](./publication/).
-        {{% /callout %}}
-      filters:
-        folders:
-          - publication
-        exclude_featured: true
-    design:
-      columns: '2'
-      view: citation
+  
   - block: collection
     id: talks
     content:

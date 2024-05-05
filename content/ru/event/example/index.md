@@ -1,5 +1,5 @@
 ---
-title: Обсуждение о жизни
+title: Выступление о жизни
 
 event: Wowchemy Conference
 event_url: https://example.org
@@ -12,7 +12,7 @@ address:
   postcode: '94305'
   country: United States
 
-summary: Пример обсуждения
+summary: Пример выступления
 
 # Talk start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.

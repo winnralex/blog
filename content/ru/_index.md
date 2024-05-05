@@ -85,12 +85,37 @@ sections:
           organization_url: https://www.stepik.org
           title: Безопасность в интернете
           url: https://stepik.org/course/191/info
+        - certificate_url: https://stepik.org/cert/2146127
+          date_end: '2023-08-09'
+          date_start: '2023-06-24'
+          description: 'Пройдено 100%'
+          organization: Stepik
+          organization_url: https://www.stepik.org
+          title: Основы программирования на C. Задачи.
+          url: https://stepik.org/course/3078/info
+        - certificate_url: https://stepik.org/cert/2090380
+          date_end: '2023-06-03'
+          date_start: '2023-04-29'
+          description: 'Пройдено 100%'
+          organization: Stepik
+          organization_url: https://www.stepik.org
+          title: Введение в Linux
+          url: https://stepik.org/course/3078/info
+        - certificate_url: https://drive.google.com/file/d/1KiTFhsJWny2uMpCCZNSCLo1vcaww_Ocg/view?usp=sharing
+          date_end: '2024-05-05'
+          date_start: '2024-02-17'
+          description: 'Пройдено 100%'
+          organization: Stepik
+          organization_url: https://www.stepik.org
+          title: Основы кибербезопасности
+          url: https://stepik.org/course/111512/info
+          
     design:
       columns: '2'
   - block: collection
     id: posts
     content:
-      title: Недавние публикации
+      title: Последние публикации
       subtitle: ''
       text: ''
       # Choose how many pages you would like to display (0 = all pages)
@@ -150,22 +175,11 @@ sections:
     design:
       columns: '2'
       view: card
-  - block: collection
-    content:
-      title: Недавние публикации
-      text: |-
-
-      filters:
-        folders:
-          - publication
-        exclude_featured: true
-    design:
-      columns: '2'
-      view: citation
+  
   - block: collection
     id: talks
     content:
-      title: Недавние и предстоящие обсуждения
+      title: Прошедшие и предстоящие выступления
       filters:
         folders:
           - event
